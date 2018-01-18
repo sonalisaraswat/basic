@@ -1,0 +1,27 @@
+Boolean Operators:
+Python's boolean operators are 'and','not' and 'or'.
+---------------------------------------------------------
+Use of or operator:It takes 2 arguments,atleast one
+should be true to get true.
+>>>1==2 or 2==2
+True
+>>>1!=2 or 2!=3
+True
+>>>1<2 or 3>6
+True
+>>>1==2 or 5==4
+False
+---------------------------------------------------------
+Use of 'and' operator:It takes 2 arguments,both need to
+be true to get true.
+>>>1==1 and 3!=9
+True
+>>>2>4 and 4>2
+False
+---------------------------------------------------------
+Use of 'not' operator:It takes only one argument, and inverts it.
+>>>not 1==1
+Flase
+>>>not 1!=1
+True
+---------------------------------------------------------

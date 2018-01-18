@@ -1,0 +1,17 @@
+In-Place Operators--
+>>>x=x+3   can also be written as
+>>>x+=3
+---------------------------------------
+>>>x=x*3   can be written as
+>>>x*=3
+---------------------------------------
+>>>x=x%3
+>>>x%=3
+---------------------------------------
+>>>x=x-3
+>>>x-=3
+---------------------------------------
+>>>x=x/3
+>>>x/=3
+---------------------------------------
+Python does not support the increment and decrement operators(++ or --).Thus (x++) cannot be used for (x=x+1).
