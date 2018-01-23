@@ -1,0 +1,45 @@
+Strings in Python---
+
+>>>print("THE QUOTES ARE NOT PRINTED..")
+THE QUOTES ARE NOT PRINTED..
+
+>>>"My uncle is here...!"
+'My uncle is here...!'
+
+>>>"My uncle's dog!!"
+'My uncle's dog!!'
+
+>>>'My uncle's dog!!'
+'My uncle'
+
+>>>'My uncle\'s dog!!'
+'My uncle's dog!!'
+
+Escape characters can't be reliabily printed.Such as backslashes and unicode characters.
+--------------------------------------------------------------------------------------------------------------
+String Operations:
+
+1.Concatenation of strings:
+>>>"First"+"Second"
+'FirstSecond'
+
+>>>print("adding"+" "+"this")
+adding this
+
+>>>print("aa"+"\t"+"bb")
+aa     bb
+
+>>>print("aa"+"\n"+"bb")
+aa
+bb
+
+2.Multiplied by Integers:
+>>>print("ab"*3)
+ababab
+
+>>>print("1"*"2")
+TypeError
+
+>>>print("1"+2)
+TypeError
+----------------------------------------------------------------------------------------------------------------
