@@ -1,0 +1,61 @@
+a=["hello",5,6,0,2.345,"y",5]
+print(a)
+
+#append elements i.e add at the end of list
+a.append(99)
+print(a)
+
+#append any variable type
+a.append("hashtag")
+print(a)
+
+#insert at a position shifting all the elements to the right
+a.insert(1,"World")
+print(a)
+
+#temperorily add element
+print(a+[1,2,3,4,5])
+
+#remove an element;if its frequency>1 ,its first occurance is removed.
+a.remove(5)
+print (a)
+a.remove(a[1])
+print(a)
+
+#pop the last element of list
+a.pop()
+print(a)
+
+#slicing in list [starting:ending:difference]
+print(a[2:8])
+print(a[0:8:2])
+print(a[:4])
+print(a[4:])
+print(a[2:2])
+
+#negative indexing fromn end of list
+print(a[-1])
+print (a[0:-1:2])
+
+#reverse list but temporarily
+print(a[::-1])
+
+#to find index of list element
+print(a.index(02.345))
+
+#count the frequency of an element
+print(a.count(5))
+print(a.count("t"))
+
+#sorting!! ....need a homogeneous list
+b = [5,2,7,0,2,1,5,576,4]
+b.sort()
+print(b)
+b = ["qwe","asd","tyu","mmn"]
+b.sort()
+print(b)
+
+#swapping elements in list
+print(a)
+a[0],a[1]=a[1],a[0]
+print(a)
