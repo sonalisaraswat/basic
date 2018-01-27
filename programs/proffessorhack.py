@@ -1,3 +1,4 @@
+#Given two integers (x,y) , he has to swap each element in that range with its related element
 n=int(input())
 a=[int(x) for x in (input().split())]
 q=int(input())
