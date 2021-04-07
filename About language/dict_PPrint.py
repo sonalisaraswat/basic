@@ -46,17 +46,18 @@ for i in D1.items():
 print(D1.get("Age", 2))
 # 10
 
-print(D1.get("Feet",0))
-# 0
+print(D1.get("Feet",0))  # since D1 dictionary did not have "Feet" as key so we get "0" as output. 
+# 0  
+#No changes done to D1.
 
 ----------------------------------------------------------------------------------------------------
 
 print(D1.setdefault("Age", 2))
 # 10
 
-print(D1.setdefault("Tail", "long"))
+print(D1.setdefault("Tail", "long"))   # D1 get a new key as "Tail" with value "long" in it.
 # long
-
+# Changes done to D1.
 ----------------------------------------------------------------------------------------------------
 
 import pprint # the pretty print module
