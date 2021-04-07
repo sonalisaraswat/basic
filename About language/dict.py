@@ -59,7 +59,7 @@ print(D1.setdefault("Tail", "long"))
 
 ----------------------------------------------------------------------------------------------------
 
-import pprint
+import pprint # the pretty print module
 
 D2 = {2:"B", 10:"j", 7:"G", 5:"E", 8:"H",  4:"D", 6:"F", 3:"C", 1:"A", 9:"i"}
 
@@ -67,15 +67,15 @@ print(D2)
 
 # {2: 'B', 10: 'j', 7: 'G', 5: 'E', 8: 'H', 4: 'D', 6: 'F', 3: 'C', 1: 'A', 9: 'i'}
 
-pprint.pprint(D2)
+pprint.pprint(D2) # use the pretty print funct. of pretty print module
 
 # {1: 'A',
- 2: 'B',
- 3: 'C',
- 4: 'D',
- 5: 'E',
- 6: 'F',
- 7: 'G',
- 8: 'H',
- 9: 'i',
- 10: 'j'}
+#  2: 'B',
+#  3: 'C',
+#  4: 'D',
+#  5: 'E',
+#  6: 'F',
+#  7: 'G',
+#  8: 'H',
+#  9: 'i',
+#  10: 'j'}
