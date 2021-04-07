@@ -16,6 +16,9 @@ THE QUOTES ARE NOT PRINTED..
 'My uncle's dog!!'
 
 Escape characters can't be reliabily printed.Such as backslashes and unicode characters.
+
+TOO MANY ESCAPE CHARACTERS IN YOUR STRING? USE ''' i.e. TRIPLE SINGLE QUOTES IN THE BEGINING AND END OF STRING
+TO ACCEPT THE STRING WITH NO PROBLEM DUE TO ESCAPE CHARACTERS.
 --------------------------------------------------------------------------------------------------------------
 String Operations:
 
