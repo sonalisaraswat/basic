@@ -128,3 +128,22 @@ STRING TO LIST: USING SPLIT().
 
 ----------------------------------------------------------------------------------------------------------------
 
+
+#JUSTIFY : PADDING STRING TO GET A SPECIFIC LENGTH OF STRING.
+
+
+ >>>"You".ljust(10)
+'You       '
+
+>>> "You".rjust(10)
+'       You'
+
+>>> "You".center(10)
+'   You    '
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+STRIP : REMOVE WHITESPACES FROM LEFT AND RIGHT OR BOTH OF STRING
+
