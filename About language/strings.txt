@@ -103,6 +103,8 @@ True
 ----------------------------------------------------------------------------------------------------------------
 
 
+
+
 LIST TO STRING: USING JOIN().
 
 >>> arr = ['4','5','6','7','8']
@@ -111,5 +113,18 @@ LIST TO STRING: USING JOIN().
 
 ----------------------------------------------------------------------------------------------------------------
 
+
+
 STRING TO LIST: USING SPLIT().
+
+>>> str = "Hey Sonali! How are you?"
+>>> str.split()
+['Hey', 'Sonali!', 'How', 'are', 'you?']
+
+
+>>> str = "lovers here and there"           
+>>> str.split('e')                           #split whenever 'e' encountered.
+['lov' , 'rs h' , 'r' , ' and th' , 'r' , '']  #Last 'e' splits and gives an empty string.
+
+----------------------------------------------------------------------------------------------------------------
 
