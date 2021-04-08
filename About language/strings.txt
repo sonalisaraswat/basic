@@ -160,3 +160,16 @@ STRIP : REMOVE WHITESPACES FROM LEFT AND RIGHT OR BOTH OF STRING
 
 
 ----------------------------------------------------------------------------------------------------------------
+
+
+
+REPLACE FUNCTION FOR STRINGS
+
+>>> str = "What starts shell ends shell"
+
+>>> str.replace("sh", "w")
+
+'What starts well ends well'
+
+
+----------------------------------------------------------------------------------------------------------------
