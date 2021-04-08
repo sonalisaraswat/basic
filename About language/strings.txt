@@ -147,3 +147,16 @@ STRING TO LIST: USING SPLIT().
 
 STRIP : REMOVE WHITESPACES FROM LEFT AND RIGHT OR BOTH OF STRING
 
+>>> Str = "      RED      "
+
+>>> Str.lstrip()
+'RED      '
+
+>>> Str.rstrip()
+'      RED'
+
+>>> Str.strip()
+'RED'
+
+
+----------------------------------------------------------------------------------------------------------------
